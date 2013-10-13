@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE51648C17DBC7D10087658F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE51648B17DBC7D10087658F /* UIKit.framework */; };
+		BE51648E17DBC7D10087658F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE51648D17DBC7D10087658F /* Foundation.framework */; };
+		BE51649017DBC7D10087658F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE51648F17DBC7D10087658F /* CoreGraphics.framework */; };
+		BE51649617DBC7D10087658F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE51649417DBC7D10087658F /* InfoPlist.strings */; };
+		BE51649817DBC7D10087658F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE51649717DBC7D10087658F /* main.m */; };
+		BE51649C17DBC7D10087658F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE51649B17DBC7D10087658F /* AppDelegate.m */; };
+		BE51649E17DBC7D10087658F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE51649D17DBC7D10087658F /* Default.png */; };
+		BE5164A017DBC7D10087658F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE51649F17DBC7D10087658F /* Default@2x.png */; };
+		BE5164A217DBC7D10087658F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE5164A117DBC7D10087658F /* Default-568h@2x.png */; };
+		BE5164A517DBC7D10087658F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5164A317DBC7D10087658F /* MainStoryboard.storyboard */; };
+		BE5164A817DBC7D10087658F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5164A717DBC7D10087658F /* MasterViewController.m */; };
+		BE5164AB17DBC7D10087658F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5164AA17DBC7D10087658F /* DetailViewController.m */; };
+		BE5164B317DBCF4A0087658F /* RSI.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5164B217DBCF4A0087658F /* RSI.m */; };
+		BE5164B617DBD1890087658F /* RSIDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5164B517DBD1890087658F /* RSIDataController.m */; };
+		BE5164B917DBFF5B0087658F /* AddProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5164B817DBFF5B0087658F /* AddProjectViewController.m */; };
+		BE8AAABB17E524A00063BDEC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8AAABA17E524A00063BDEC /* MessageUI.framework */; };
+		BE8AAAC717E542490063BDEC /* emailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8AAAC617E542490063BDEC /* emailViewController.m */; };
+		BE8AAEE217E6175500865B45 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8AAEE117E6175500865B45 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE51648817DBC7D10087658F /* StarkWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarkWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE51648B17DBC7D10087658F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE51648D17DBC7D10087658F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE51648F17DBC7D10087658F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE51649317DBC7D10087658F /* StarkWeather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarkWeather-Info.plist"; sourceTree = "<group>"; };
+		BE51649517DBC7D10087658F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE51649717DBC7D10087658F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE51649917DBC7D10087658F /* StarkWeather-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarkWeather-Prefix.pch"; sourceTree = "<group>"; };
+		BE51649A17DBC7D10087658F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE51649B17DBC7D10087658F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE51649D17DBC7D10087658F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE51649F17DBC7D10087658F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BE5164A117DBC7D10087658F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BE5164A417DBC7D10087658F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BE5164A617DBC7D10087658F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BE5164A717DBC7D10087658F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BE5164A917DBC7D10087658F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BE5164AA17DBC7D10087658F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BE5164B117DBCF4A0087658F /* RSI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSI.h; sourceTree = "<group>"; };
+		BE5164B217DBCF4A0087658F /* RSI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSI.m; sourceTree = "<group>"; };
+		BE5164B417DBD1890087658F /* RSIDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSIDataController.h; sourceTree = "<group>"; };
+		BE5164B517DBD1890087658F /* RSIDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSIDataController.m; sourceTree = "<group>"; };
+		BE5164B717DBFF5B0087658F /* AddProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProjectViewController.h; sourceTree = "<group>"; };
+		BE5164B817DBFF5B0087658F /* AddProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProjectViewController.m; sourceTree = "<group>"; };
+		BE8AAABA17E524A00063BDEC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BE8AAAC517E542490063BDEC /* emailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = emailViewController.h; path = ../emailViewController.h; sourceTree = "<group>"; };
+		BE8AAAC617E542490063BDEC /* emailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = emailViewController.m; path = ../emailViewController.m; sourceTree = "<group>"; };
+		BE8AAEE117E6175500865B45 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE51648517DBC7D10087658F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8AAEE217E6175500865B45 /* AssetsLibrary.framework in Frameworks */,
+				BE8AAABB17E524A00063BDEC /* MessageUI.framework in Frameworks */,
+				BE51648C17DBC7D10087658F /* UIKit.framework in Frameworks */,
+				BE51648E17DBC7D10087658F /* Foundation.framework in Frameworks */,
+				BE51649017DBC7D10087658F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE51647F17DBC7D10087658F = {
+			isa = PBXGroup;
+			children = (
+				BE51649117DBC7D10087658F /* StarkWeather */,
+				BE51648A17DBC7D10087658F /* Frameworks */,
+				BE51648917DBC7D10087658F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE51648917DBC7D10087658F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE51648817DBC7D10087658F /* StarkWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE51648A17DBC7D10087658F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE8AAEE117E6175500865B45 /* AssetsLibrary.framework */,
+				BE8AAABA17E524A00063BDEC /* MessageUI.framework */,
+				BE51648B17DBC7D10087658F /* UIKit.framework */,
+				BE51648D17DBC7D10087658F /* Foundation.framework */,
+				BE51648F17DBC7D10087658F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE51649117DBC7D10087658F /* StarkWeather */ = {
+			isa = PBXGroup;
+			children = (
+				BE51649A17DBC7D10087658F /* AppDelegate.h */,
+				BE51649B17DBC7D10087658F /* AppDelegate.m */,
+				BE5164A317DBC7D10087658F /* MainStoryboard.storyboard */,
+				BE5164B117DBCF4A0087658F /* RSI.h */,
+				BE5164B217DBCF4A0087658F /* RSI.m */,
+				BE5164B417DBD1890087658F /* RSIDataController.h */,
+				BE5164B517DBD1890087658F /* RSIDataController.m */,
+				BE5164B717DBFF5B0087658F /* AddProjectViewController.h */,
+				BE5164B817DBFF5B0087658F /* AddProjectViewController.m */,
+				BE5164A617DBC7D10087658F /* MasterViewController.h */,
+				BE5164A717DBC7D10087658F /* MasterViewController.m */,
+				BE5164A917DBC7D10087658F /* DetailViewController.h */,
+				BE5164AA17DBC7D10087658F /* DetailViewController.m */,
+				BE8AAAC517E542490063BDEC /* emailViewController.h */,
+				BE8AAAC617E542490063BDEC /* emailViewController.m */,
+				BE51649217DBC7D10087658F /* Supporting Files */,
+			);
+			path = StarkWeather;
+			sourceTree = "<group>";
+		};
+		BE51649217DBC7D10087658F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE51649317DBC7D10087658F /* StarkWeather-Info.plist */,
+				BE51649417DBC7D10087658F /* InfoPlist.strings */,
+				BE51649717DBC7D10087658F /* main.m */,
+				BE51649917DBC7D10087658F /* StarkWeather-Prefix.pch */,
+				BE51649D17DBC7D10087658F /* Default.png */,
+				BE51649F17DBC7D10087658F /* Default@2x.png */,
+				BE5164A117DBC7D10087658F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE51648717DBC7D10087658F /* StarkWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5164AE17DBC7D10087658F /* Build configuration list for PBXNativeTarget "StarkWeather" */;
+			buildPhases = (
+				BE51648417DBC7D10087658F /* Sources */,
+				BE51648517DBC7D10087658F /* Frameworks */,
+				BE51648617DBC7D10087658F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarkWeather;
+			productName = StarkWeather;
+			productReference = BE51648817DBC7D10087658F /* StarkWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE51648017DBC7D10087658F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = StarkWeather;
+			};
+			buildConfigurationList = BE51648317DBC7D10087658F /* Build configuration list for PBXProject "StarkWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE51647F17DBC7D10087658F;
+			productRefGroup = BE51648917DBC7D10087658F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE51648717DBC7D10087658F /* StarkWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE51648617DBC7D10087658F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE51649617DBC7D10087658F /* InfoPlist.strings in Resources */,
+				BE51649E17DBC7D10087658F /* Default.png in Resources */,
+				BE5164A017DBC7D10087658F /* Default@2x.png in Resources */,
+				BE5164A217DBC7D10087658F /* Default-568h@2x.png in Resources */,
+				BE5164A517DBC7D10087658F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE51648417DBC7D10087658F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE51649817DBC7D10087658F /* main.m in Sources */,
+				BE51649C17DBC7D10087658F /* AppDelegate.m in Sources */,
+				BE5164A817DBC7D10087658F /* MasterViewController.m in Sources */,
+				BE5164AB17DBC7D10087658F /* DetailViewController.m in Sources */,
+				BE5164B317DBCF4A0087658F /* RSI.m in Sources */,
+				BE5164B617DBD1890087658F /* RSIDataController.m in Sources */,
+				BE5164B917DBFF5B0087658F /* AddProjectViewController.m in Sources */,
+				BE8AAAC717E542490063BDEC /* emailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE51649417DBC7D10087658F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE51649517DBC7D10087658F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE5164A317DBC7D10087658F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5164A417DBC7D10087658F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE5164AC17DBC7D10087658F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE5164AD17DBC7D10087658F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE5164AF17DBC7D10087658F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarkWeather/StarkWeather-Prefix.pch";
+				INFOPLIST_FILE = "StarkWeather/StarkWeather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE5164B017DBC7D10087658F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarkWeather/StarkWeather-Prefix.pch";
+				INFOPLIST_FILE = "StarkWeather/StarkWeather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE51648317DBC7D10087658F /* Build configuration list for PBXProject "StarkWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5164AC17DBC7D10087658F /* Debug */,
+				BE5164AD17DBC7D10087658F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5164AE17DBC7D10087658F /* Build configuration list for PBXNativeTarget "StarkWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5164AF17DBC7D10087658F /* Debug */,
+				BE5164B017DBC7D10087658F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE51648017DBC7D10087658F /* Project object */;
+}
